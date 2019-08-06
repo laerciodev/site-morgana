@@ -1,0 +1,22 @@
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo-principal {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.last-name {
+    font-weight: 400;
+}
+
+.visual-artist {
+    color: #ff0000;
+    font-size: 14px;
+}
