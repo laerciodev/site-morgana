@@ -1,7 +1,8 @@
 import React from "react"
-import Header from "./header"
+import Header from "./Header"
 import styled, { createGlobalStyle } from 'styled-components'
-import '../components/layout.css';
+// import '../components/layout.css';
+import '../components/reset.css';
 
 const GlobalStyles = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
