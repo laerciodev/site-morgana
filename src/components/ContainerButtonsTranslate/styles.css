@@ -1,0 +1,18 @@
+.container-buttons-translate {
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 36px;
+}
+
+.button-translate {
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    margin-left: 12px;
+    padding: 5px 10px;
+    background-color: #e8e8e8;
+    text-align: right;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+#menu {
+    display: none;
+}
+
+.button-menu {
+    background: none;
+    border: none;
+    height: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
