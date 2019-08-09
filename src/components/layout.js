@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "./Header"
+import Footer from "./Footer"
 import styled, { createGlobalStyle } from 'styled-components'
 // import '../components/layout.css';
 import '../components/reset.css';
@@ -28,6 +29,7 @@ const Layout = ({ children }) => (
     <LayoutWrapper>
       { children }
     </LayoutWrapper>
+    <Footer />
   </>
 )
 

@@ -21,9 +21,9 @@ const Menu = () => (
         render={props => (
         <>
          <nav className='container-menu'>
-              <ul class='list-menu'>    
-                  { props.allWordpressWpApiMenusMenusItems.edges[0].node.items.map(item => (
-                      <li className='item-menu'>
+              <ul className='list-menu'>    
+                  { props.allWordpressWpApiMenusMenusItems.edges[0].node.items.map((item, index) => (
+                      <li key={index} className='item-menu'>
                           <Link className='link-menu' to={ item.object_slug } key={ item.title }>
                               { item.title }
                           </Link>

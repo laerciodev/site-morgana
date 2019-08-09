@@ -1,0 +1,31 @@
+#footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    margin-top: 24px;
+    border-top: 1px solid #707070;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.title-footer,
+.social-icons,
+.email-contact,
+.copyright {
+    margin: 16px 0;
+}
+
+.social-icons > .-icon {
+    width: 30px;
+    height: 30px;
+    fill: #707070;
+    margin-right: 15px;
+}
+
+.social-icons > .-icon:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
