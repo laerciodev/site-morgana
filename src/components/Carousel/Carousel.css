@@ -1,0 +1,34 @@
+.slick-slide {
+    margin: 0 10px;
+}
+
+.item-carousel {
+    max-width: 100%;
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+
+.slick-dots button {
+    width: 12px!important;
+    height: 12px!important;
+    border: 1px solid #707070!important;
+    border-radius: 50%;
+    color: #fff!important;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+    width: 12px;
+    height: 12px;
+    top: -3px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #707070;
+}

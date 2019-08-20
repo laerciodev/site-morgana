@@ -2,6 +2,7 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 24px 16px;
+    position: relative;
 }
 
 .header-top {
@@ -9,3 +10,4 @@
     justify-content: space-between;
     width: 100%;
 }
+

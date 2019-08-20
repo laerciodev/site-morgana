@@ -1,9 +1,18 @@
+@media(max-width: 768px) {
+    
+    .button-menu {
+        background: none;
+        border: none;
+        height: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        cursor: pointer;
+    }
+
+}
+
 .button-menu {
-    background: none;
-    border: none;
-    height: 25px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    display: none;
 }

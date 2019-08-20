@@ -10,7 +10,7 @@ class Header extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showMenu: false
+      showMenu: true
     }
   }
 
